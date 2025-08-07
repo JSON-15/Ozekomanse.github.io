@@ -1,0 +1,193 @@
+
+
+
+
+
+
+ /* === Global Reset === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+/* === Sidebar === */
+.sidebar {
+  position: fixed;
+  width: 22%;
+  min-width: 250px;
+  background-color: #010526;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.sidebar h3 {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* === Profil === */
+.foto {
+  width: 60%;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 15px auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* === Menu Navigation === */
+.heroo {
+  margin-top: auto;
+}
+
+.mad {
+  list-style: none;
+  padding: 19%;
+}
+
+.mad li {
+  margin: 15% 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mad a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.mad a:hover {
+  color: #fca311;
+}
+
+/* === Main Content === */
+main,
+.main-content {
+  flex: 1;
+  margin-left: 22%;
+  padding: 2%;
+}
+
+/* === Banner === */
+.banner {
+  height: 100vh;
+  background: url('../css/image/horizon.jpg') center/cover no-repeat;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+
+.banner h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.banner p {
+  font-size: 1.5rem;
+}
+
+/* === Video Section === */
+video,
+.videyo {
+  width: 40%;
+  max-width: 700px;
+  margin: 1em auto;
+  display: block;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.video-text {
+  text-align: center;
+  margin-top: 0.5em;
+  font-style: italic;
+  color: #555;
+  max-width: 700px;
+  margin: 0.5em auto;
+}
+
+/* === Footer === */
+footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #e5e5e5;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* === Responsive === */
+@media screen and (max-width: 768px) {
+  body {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 15px;
+  }
+
+  .main-content,
+  main {
+    margin-left: 0;
+    padding: 4%;
+  }
+
+  .foto {
+    width: 100px;
+    height: 100px;
+  }
+
+  .banner h1 {
+    font-size: 2rem;
+  }
+
+  .banner p {
+    font-size: 1.2rem;
+  }
+}
+
+
+
+/* Navigation Buttons */
+.navigation-buttons {
+  width: 90%;
+  margin: 2% auto 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation-buttons a {
+  padding: 1.5% 3%;
+  background-color: #14213d;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.navigation-buttons a:hover {
+  background-color: #fca311;
+}
+
+ 
