@@ -17,7 +17,7 @@ body {
 /* Header Container */
 .container {
   width: 100%;
-  background-color: #14213d;
+  background-color: #2575fc;
 }
 
 /* Navigation bar */
@@ -27,7 +27,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 2% 5%;
-  background-color: #14213d;
+  background-color: #2575fc;
   color: #fff;
 }
 
