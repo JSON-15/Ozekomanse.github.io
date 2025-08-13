@@ -86,7 +86,7 @@ main,
 /* === Banner === */
 .banner {
   height: 100vh;
-  background: url('../css/image/horizon.jpg') center/cover no-repeat;
+  background: url('../css/image/lakay.jpg') center/cover no-repeat;
   color: #fff;
   display: flex;
   flex-direction: column;
