@@ -86,7 +86,7 @@ main,
 /* === Banner === */
 .banner {
   height: 100vh;
-  background: url('../css/image/fire_soul.jpg') center/cover no-repeat;
+  background: url('../css/image/penthouse.jpg') center/cover no-repeat;
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -126,12 +126,12 @@ video,
 
 /* === Footer === */
 footer {
-  padding: 20px;
   text-align: center;
-  background-color: #e5e5e5;
-  font-size: 0.9rem;
-  color: #555;
+  padding: 20px;
+  background-color: #14213d;
+  color: white;
 }
+
 
 /* === Responsive === */
 @media screen and (max-width: 768px) {
@@ -191,3 +191,21 @@ footer {
 }
 
  
+/* === Section Title === */
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #14213d;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.intro-course {
+  width: 90%;
+  margin: 2% auto;
+  padding: 2%;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
